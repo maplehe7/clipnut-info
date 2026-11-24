@@ -1,0 +1,14 @@
+:root {
+  color-scheme: dark;
+  font: 1rem/1.65 system-ui, sans-serif;
+  color: #f0f2ed;
+  background: #10120f;
+}
+body { max-inline-size: 46rem; margin: auto; padding: 2rem 1.25rem 3rem; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; padding-block-end: 1rem; border-block-end: 1px solid #373e33; }
+a { color: #cef581; text-underline-offset: .2em; }
+a[aria-current="page"] { color: inherit; }
+a:focus-visible { outline: 2px solid #cef581; outline-offset: .25rem; }
+h1 { margin-block: 2rem 1rem; font-size: clamp(2rem, 7vw, 3rem); line-height: 1.18; letter-spacing: -.04em; }
+h2 { font-size: 1.25rem; margin-block: 1.75rem .4rem; }
+p { margin-block: .35rem 1rem; }
